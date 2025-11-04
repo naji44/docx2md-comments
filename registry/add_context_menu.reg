@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.docx\shell\ConvertToMarkdown]
+@="Convert to Markdown with Comments"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.docx\shell\ConvertToMarkdown\command]
+@="\"C:\\Python311\\python.exe\" \"C:\\Scripts\\word_to_md_with_comments.py\" \"%1\""
